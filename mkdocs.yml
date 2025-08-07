@@ -1,4 +1,4 @@
-site_name: MVS B2B Frontend Docs
+site_name: MVS B2B Docs
 site_url: https://mvsb2b.example.com
 
 theme:
@@ -35,11 +35,14 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Tech Stack: techstack.md
-  - Setup & Installation: setup.md
-  # - Folder Structure: folders.md
-  # - Key Components: components.md
-  - Contribution Guide: contribution.md
+  - Front-End Guides:
+    - Project Information: project-info.md
+    - Setup & Install: front-end-setup.md
+    - Troubleshooting: front-end-troubleshooting.md
+  - VM Setup: 
+    - Toolkit Setup: toolkit-setup.md
+    - VM / Toolkit Troubleshooting: toolkit-trouble-shoot.md
+  - Git Guide: git-guide.md
 
 extra_css:
   - stylesheets/custom-colors.css

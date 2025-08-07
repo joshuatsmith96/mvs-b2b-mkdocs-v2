@@ -1,33 +1,46 @@
 /* Light mode (default) */
 [data-md-color-scheme="light"] {
-  --md-primary-fg-color: #009999;
-  --md-primary-bg-color: #ffffff;
-  --md-primary-fg-color: #009999; /* Example: Keep primary color the same */
-  --md-default-bg-color: #ffffff;
-  --md-default-fg-color: #212121;
-  --md-code-bg-color: #f5f5f5;
-  --md-code-fg-color: #1e1e1e;
-   --md-typeset-heading-color: #000000;
+  --md-primary-bg-color: #ffffff; /* Navigation text color */
+  --md-primary-fg-color: #009999; /* Navigation BG color */
+  --md-default-bg-color: #ffffff; /* Page background color */
+  --md-code-bg-color: rgb(224, 224, 224); /* Main Code BG Color */
+  --md-code-fg-color: #1e1e1e; /* Main Code Text Color */
 }
 
 /* Dark mode (slate) */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #007c7c; /* Example: Keep primary color the same */
-  --md-primary-bg-color: #ffffff;
+  --md-primary-fg-color: #007c7c;
+  --md-primary-bg-color: #ffffff; /* Navigation text color */
   --md-accent-fg-color: #33cccc;
-  --md-default-bg-color: #222222;
-  --md-default-fg-color: #ffffff;
+  --md-default-bg-color: #222222; /* Main Background Color */
 
-  --md-typeset-color: #ffffff;
-  --md-typeset-heading-color: #000000;
-  --md-header-fg-color: #ffffff;
-  --md-header-bg-color: #121212;
-  --md-sidebar-fg-color: #ffffff;
-  --md-sidebar-bg-color: #121212;
-  --md-nav-fg-color: #ffffff;
-  --md-nav-bg-color: #121212;
-  --md-tabs-fg-color: #ffffff;
-  --md-tabs-bg-color: #121212;
-  --md-code-bg-color: #454545;
-  --md-code-fg-color: #ffffff;
+  --md-typeset-color: #ffffff; /* Paragraph and subheader text color */
+  --md-code-bg-color: #454545; /* Main Code BG Color */
+  --md-code-fg-color: #ffffff; /* Main Code Text Color */
+}
+
+/* Light mode left sidebar text */
+[data-md-color-scheme="light"] .md-nav__link {
+  color: #000000;
+}
+
+[data-md-color-scheme="light"] .md-nav__link:hover,
+[data-md-color-scheme="light"] .md-nav__link--active {
+  color: #009999;
+  font-weight: bold;
+}
+
+
+
+
+
+/* Dark mode left sidebar text */
+[data-md-color-scheme="slate"] .md-nav__link {
+  color: #ffffff;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link:hover,
+[data-md-color-scheme="slate"] .md-nav__link--active {
+  color: #ffdb66;
+  font-weight: bold;
 }
