@@ -1,0 +1,2 @@
+mkdocs
+mkdocs-material  # or any other theme/plugin you use

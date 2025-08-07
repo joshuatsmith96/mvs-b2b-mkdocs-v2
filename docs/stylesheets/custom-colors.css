@@ -1,0 +1,33 @@
+/* Light mode (default) */
+[data-md-color-scheme="light"] {
+  --md-primary-fg-color: #009999;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-fg-color: #009999; /* Example: Keep primary color the same */
+  --md-default-bg-color: #ffffff;
+  --md-default-fg-color: #212121;
+  --md-code-bg-color: #f5f5f5;
+  --md-code-fg-color: #1e1e1e;
+   --md-typeset-heading-color: #000000;
+}
+
+/* Dark mode (slate) */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #007c7c; /* Example: Keep primary color the same */
+  --md-primary-bg-color: #ffffff;
+  --md-accent-fg-color: #33cccc;
+  --md-default-bg-color: #222222;
+  --md-default-fg-color: #ffffff;
+
+  --md-typeset-color: #ffffff;
+  --md-typeset-heading-color: #000000;
+  --md-header-fg-color: #ffffff;
+  --md-header-bg-color: #121212;
+  --md-sidebar-fg-color: #ffffff;
+  --md-sidebar-bg-color: #121212;
+  --md-nav-fg-color: #ffffff;
+  --md-nav-bg-color: #121212;
+  --md-tabs-fg-color: #ffffff;
+  --md-tabs-bg-color: #121212;
+  --md-code-bg-color: #1f1f1f;
+  --md-code-fg-color: #ffffff;
+}

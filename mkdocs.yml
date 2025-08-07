@@ -1,0 +1,49 @@
+site_name: MVS B2B Frontend Docs
+site_url: https://mvsb2b.example.com
+
+theme:
+  name: material
+  palette:
+    - scheme: light
+      media: "(prefers-color-scheme: light)"
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      toggle:
+        icon: material/white-balance-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - def_list
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.emoji
+
+nav:
+  - Home: index.md
+  - Tech Stack: techstack.md
+  - Setup & Installation: setup.md
+  # - Folder Structure: folders.md
+  # - Key Components: components.md
+  - Contribution Guide: contribution.md
+
+extra_css:
+  - stylesheets/custom-colors.css
+
+copyright: MVS Developer Notes
+extra:
+  generator: false
