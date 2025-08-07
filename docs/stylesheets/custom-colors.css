@@ -1,9 +1,17 @@
+p{
+  font-weight: 300;
+}
+
+h1{
+  font-weight: 500 !important;
+}
+
 /* Light mode (default) */
 [data-md-color-scheme="light"] {
   --md-primary-bg-color: #ffffff; /* Navigation text color */
   --md-primary-fg-color: #009999; /* Navigation BG color */
   --md-default-bg-color: #ffffff; /* Page background color */
-  --md-code-bg-color: rgb(224, 224, 224); /* Main Code BG Color */
+  --md-code-bg-color: rgb(233, 233, 233); /* Main Code BG Color */
   --md-code-fg-color: #1e1e1e; /* Main Code Text Color */
 }
 
