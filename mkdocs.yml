@@ -36,12 +36,14 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Front-End Guides:
-    - Project Information: project-info.md
-    - Setup & Install: front-end-setup.md
-    - Troubleshooting: front-end-troubleshooting.md
+    - Project Information: front-end/project-info.md
+    - Setup & Install: front-end/front-end-setup.md
+    - Troubleshooting: front-end/front-end-troubleshooting.md
+    - Guides & How-Tos:
+      - Test: front-end/front-end-setup.md
   - VM Setup: 
-    - Toolkit Setup: toolkit-setup.md
-    - VM / Toolkit Troubleshooting: toolkit-trouble-shoot.md
+    - Toolkit Setup: vm-setup/toolkit-setup.md
+    - VM / Toolkit Troubleshooting: vm-setup/toolkit-trouble-shoot.md
   - Git Guide: git-guide.md
 
 extra_css:
