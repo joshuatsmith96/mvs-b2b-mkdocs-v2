@@ -12,7 +12,7 @@ This page provides a quick reference to the official documentation and other hel
 
 ---
 
-### ​​ Helpful YouTube Videos (Updated)
+### ​​ Helpful YouTube Videos (Updated 8/8/2025)
 
 * <strong><a href="https://www.youtube.com/watch?v=vCOSTG10Y4o" target="_blank">Next.js 14 Complete Course 2024 | Full‑Stack App Tutorial for Beginners</a>:</strong> A comprehensive walkthrough of building a full-stack application with Next.js 14 using the app router, server actions, MongoDB, and authentication features. :contentReference[oaicite:0]{index=0}  
 * <strong><a href="https://www.youtube.com/watch?v=MFuwkrseXVE" target="_blank">Next.js Crash Course for Beginners</a>:</strong> A free, in-depth tutorial that covers setting up Next.js, routing, data fetching, deployment, and more. :contentReference[oaicite:1]{index=1}  
