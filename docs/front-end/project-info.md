@@ -1,6 +1,16 @@
-### `package.json` File: `evolve-storefront`
+This document outlines the main scripts used by the **MVS B2B E-Commerce Storefront**.
 
-This document outlines the essential information from the `evolve-storefront` `package.json` file that a developer would use regularly.
+
+---
+
+### Relevant project directories
+Many of the folders and files inside of this project are considered **core**, which means they are integral to the project and should never be changed directly. Below are the relevant folders and files that developers will be involved in the most:
+
+| Path                                         | Description                                                                 |
+|----------------------------------------------|-----------------------------------------------------------------------------|
+| `/integration/data/custom/Content`           | This is where integration files for content areas are kept. API calls happen within these files. |
+| `/integration/locales/custom/[language]`     | All of the website's text is located within these files.                    |
+| `/integration/providers/custom/specs/custom` | Spec files that dictate API schemas.                                        |
 
 ---
 

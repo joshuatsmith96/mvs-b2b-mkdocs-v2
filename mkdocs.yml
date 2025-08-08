@@ -1,4 +1,4 @@
-site_name: MVS B2B Docs
+site_name: MVS B2B Dev Docs
 site_url: https://mvsb2b.example.com
 
 theme:
@@ -40,7 +40,10 @@ nav:
     - Setup & Install: front-end/front-end-setup.md
     - Troubleshooting: front-end/front-end-troubleshooting.md
     - Guides & How-Tos:
-      - Test: front-end/front-end-setup.md
+      - Adding localized text: front-end/guides/adding-updating-text.md
+      - Adding new API spec: front-end/guides/new-spec-guide.md
+      - MUI Basics: front-end/guides/mui-basics.md
+      - Additional Resources: front-end/additional-resources.md
   - VM Setup: 
     - Toolkit Setup: vm-setup/toolkit-setup.md
     - VM / Toolkit Troubleshooting: vm-setup/toolkit-trouble-shoot.md
