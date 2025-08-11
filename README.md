@@ -23,9 +23,21 @@ python -m venv venv
 ```
 
 ### 3. Activate the Virtual Environment
-### 1. On macOS/Linux
+On macOS/Linux
 ```
 source venv/bin/activate
 ```
+On Windows 10+
+```
+venv/Scripts/Activate.ps1
+```
 
-### 4. 
+### 4. Install Dependencies
+```
+pip install -r requirements.txt
+```
+
+### 5. Run the project
+```
+mkdocs serve
+```
