@@ -15,8 +15,6 @@ This project uses [MKDocs](https://www.mkdocs.org/) to generate static documenta
 
 ### 1. Clone the Repository
 
-python -m venv venv
-
 ### 2. Create a Virtual Environment
 ```
 python -m venv venv
