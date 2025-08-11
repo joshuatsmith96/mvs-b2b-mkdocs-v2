@@ -15,6 +15,17 @@ This project uses [MKDocs](https://www.mkdocs.org/) to generate static documenta
 
 ### 1. Clone the Repository
 
-```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+python -m venv venv
+
+### 2. Create a Virtual Environment
+```
+python -m venv venv
+```
+
+### 3. Activate the Virtual Environment
+### 1. On macOS/Linux
+```
+source venv/bin/activate
+```
+
+### 4. 
