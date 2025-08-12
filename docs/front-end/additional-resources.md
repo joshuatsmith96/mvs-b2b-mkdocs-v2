@@ -2,7 +2,7 @@
 
 This page provides a quick reference to the official documentation and other helpful resources for the key technologies used in this project.
 
-### 📚 Official Documentation
+### Official Documentation
 
 * <strong><a href="https://nextjs.org/docs" target="_blank">Next.js</a>:</strong> Next.js is the React framework for building full-stack web applications.  
 * <strong><a href="https://react.dev/reference/react" target="_blank">React</a>:</strong> React is the library for building user interfaces.  
