@@ -47,6 +47,8 @@ nav:
         - Additional Resources: front-end/additional-resources.md
     - WordPress Site:
       - Project Information: front-end/project-info.md # Seth, Createa file for this
+    - Sharepoint Docs?:
+      - Sharepoint Stuff: sharepoint.md
   - API Documentation:
     - ProfoundJS Guides:
       - Setup / Installation: api/profoundjs/profound-setup.md
