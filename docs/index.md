@@ -17,5 +17,7 @@ The MVS B2B frontend is a modern web application built using [Next.js](https://n
 Use the navigation bar or the search bar above to find what you need.
 
 - **Front-End Guides** – A complete how-to for installing and troubleshooting the front-end.
+- **API Documentation** – Documentation and examples for our profoundjs API's, as well as profoundjs installation and setup instructions.
 - **VM Setup** - A guide to all things Virtual Machines. This is only necessary for back-end or full-stack developers.
 - **Git Guide** - A cheat sheet to all things git, as it pertains to this project.
+
