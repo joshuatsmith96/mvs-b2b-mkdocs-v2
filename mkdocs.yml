@@ -47,6 +47,23 @@ nav:
         - Additional Resources: front-end/additional-resources.md
     - WordPress Site:
       - Project Information: front-end/project-info.md # Seth, Createa file for this
+  - API Documentation:
+    - Account Statements: front-end/api-docs/account-statements.md
+    - Backorder: front-end/api-docs/backorder.md
+    - Create / Return Order:
+      - Create Order: front-end/api-docs/create-order.md
+      - Return Order: front-end/api-docs/return-order.md
+    - GL Codes:
+      - Enter New GL Code: front-end/api-docs/new-gl-code.md
+      - View Code List: front-end/api-docs/gl-list.md
+      - Code Summary: front-end/api-docs/gl-summary.md
+      - GL Codes From Items: front-end/api-docs/gl-from-items.md
+    - Invoice:
+      - Invoice List: front-end/api-docs/invoice-list.md
+      - Invoice Details: front-end/api-docs/invoice-details.md
+    - Licensing:
+      - Get License Info: front-end/api-docs/license-info.md
+      - Validate License: front-end/api-docs/validate-license.md
   - VM Setup: 
     - Toolkit Setup: vm-setup/toolkit-setup.md
     - VM / Toolkit Troubleshooting: vm-setup/toolkit-trouble-shoot.md
