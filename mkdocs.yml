@@ -3,6 +3,7 @@ site_url: https://mvsb2b.example.com
 
 theme:
   name: material
+  favicon: img/favicon.ico
   palette:
     - scheme: light
       media: "(prefers-color-scheme: light)"
