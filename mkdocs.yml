@@ -44,15 +44,15 @@ nav:
       - Guides & How-Tos:
         - Adding localized text: front-end/guides/adding-updating-text.md
         - Adding new API spec: front-end/guides/new-spec-guide.md
+        - e-Marketing Spot:
+          - HTML Guide: front-end/guides/e-marketing-html-guide.md
         - MUI Basics: front-end/guides/mui-basics.md
         - Additional Resources: front-end/additional-resources.md
     - WordPress Site:
-      - Project Information: front-end/project-info.md # Seth, Createa file for this
+      - Project Information: front-end/project-info.md # Seth, you can create a file for this and put it here
     - Sharepoint Docs?:
       - Sharepoint Stuff: sharepoint.md
   - API Documentation:
-    - ProfoundJS Guides:
-      - Setup / Installation: api/profoundjs/profound-setup.md
     - B2B API Specs:
       - Account Statements: api/api-docs/account-statements.md
       - Backorder: api/api-docs/backorder.md
