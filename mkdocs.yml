@@ -1,9 +1,10 @@
-site_name: MVS Dev Docs
+site_name: Developer Documents
 site_url: https://mvsb2b.example.com
 
 theme:
   name: material
-  favicon: img/favicon.ico
+  logo: img/midwest_text_white.png
+  favicon: img/new-favicon.ico
   palette:
     - scheme: light
       media: "(prefers-color-scheme: light)"
@@ -37,21 +38,23 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Front-End Guides:
-    - E-Commerce:
+    - E-Commerce (React/NextJS Platform):
       - Project Information: front-end/project-info.md
       - Setup & Install: front-end/front-end-setup.md
       - Troubleshooting: front-end/front-end-troubleshooting.md
       - Guides & How-Tos:
         - Adding localized text: front-end/guides/adding-updating-text.md
+        - Adding new carousel banner: front-end/guides/add-banner.md
         - Adding new API spec: front-end/guides/new-spec-guide.md
-        - e-Marketing Spot:
-          - HTML Guide: front-end/guides/e-marketing-html-guide.md
         - MUI Basics: front-end/guides/mui-basics.md
         - Additional Resources: front-end/additional-resources.md
-    - WordPress Site:
-      - Project Information: front-end/project-info.md # Seth, you can create a file for this and put it here
-    - Sharepoint Docs?:
-      - Sharepoint Stuff: sharepoint.md
+    - E-Commerce (CMC) Guides:
+      - CMC Information: front-end/guides/cmc-info.md
+      - HTML Guide: front-end/guides/e-marketing-html-guide.md
+    # - WordPress Site:
+    #   - Project Information: front-end/project-info.md
+    # - Sharepoint Docs?:
+    #   - Sharepoint Stuff: sharepoint.md
   - API Documentation:
     - B2B API Specs:
       - Account Statements: api/api-docs/account-statements.md
