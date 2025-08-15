@@ -1,0 +1,54 @@
+p{
+  font-weight: 300;
+}
+
+h1{
+  font-weight: 500 !important;
+}
+
+/* Light mode (default) */
+[data-md-color-scheme="light"] {
+  --md-primary-bg-color: #ffffff; /* Navigation text color */
+  --md-primary-fg-color: #009999; /* Navigation BG color */
+  --md-default-bg-color: #ffffff; /* Page background color */
+  --md-code-bg-color: rgb(233, 233, 233); /* Main Code BG Color */
+  --md-code-fg-color: #1e1e1e; /* Main Code Text Color */
+}
+
+/* Dark mode (slate) */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #007c7c;
+  --md-primary-bg-color: #ffffff; /* Navigation text color */
+  --md-accent-fg-color: #33cccc;
+  --md-default-bg-color: #222222; /* Main Background Color */
+
+  --md-typeset-color: #ffffff; /* Paragraph and subheader text color */
+  --md-code-bg-color: #454545; /* Main Code BG Color */
+  --md-code-fg-color: #ffffff; /* Main Code Text Color */
+}
+
+/* Light mode left sidebar text */
+[data-md-color-scheme="light"] .md-nav__link {
+  color: #000000;
+}
+
+[data-md-color-scheme="light"] .md-nav__link:hover,
+[data-md-color-scheme="light"] .md-nav__link--active {
+  color: #009999;
+  font-weight: bold;
+}
+
+
+
+
+
+/* Dark mode left sidebar text */
+[data-md-color-scheme="slate"] .md-nav__link {
+  color: #ffffff;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link:hover,
+[data-md-color-scheme="slate"] .md-nav__link--active {
+  color: #ffdb66;
+  font-weight: bold;
+}
