@@ -51,8 +51,8 @@ nav:
     - E-Commerce (CMC) Guides:
       - CMC Information: front-end/guides/cmc-info.md
       - HTML Guide: front-end/guides/e-marketing-html-guide.md
-    # - WordPress Site:
-    #   - Project Information: front-end/project-info.md
+    - WordPress Site:
+      - Project Information: front-end/wordpress-blocks-info.md
     # - Sharepoint Docs?:
     #   - Sharepoint Stuff: sharepoint.md
   - API Documentation:
@@ -88,6 +88,7 @@ nav:
 
 extra_css:
   - stylesheets/custom-colors.css
+  - stylesheets/custom-styling.css
 
 copyright: MVS Developer Notes
 extra:
