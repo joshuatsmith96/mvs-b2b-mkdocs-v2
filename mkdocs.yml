@@ -46,12 +46,13 @@ nav:
         - Adding localized text: front-end/guides/adding-updating-text.md
         - Adding new carousel banner: front-end/guides/add-banner.md
         - Adding new API spec: front-end/guides/new-spec-guide.md
+        - Adding CMC-Usable Components: front-end/guides/adding-usable-cmc-components.md
         - MUI Basics: front-end/guides/mui-basics.md
         - Additional Resources: front-end/additional-resources.md
     - E-Commerce (CMC) Guides:
       - CMC Information: front-end/guides/cmc-info.md
       - HTML Guide: front-end/guides/e-marketing-html-guide.md
-      - Re-Usable Components: front-end/guides/jotform-component.md
+      - Re-Usable Components: front-end/guides/reusable-components.md
     # - WordPress Site:
     #   - Project Information: front-end/project-info.md
     # - Sharepoint Docs?:
