@@ -122,8 +122,27 @@ For more details, view the [Official MUI Documentation](https://mui.com/material
 Use the **JotForm Component** to embed a JotForm without a separate embed script. Just use the following HTML tag with `element="JotForm"` and the form's ID in the `props` attribute.
 
 ```html
-<div element="JotForm" props="{'id': 'id_here'}"></div>
+<div element="JotForm"
+props="{'id': 'id_here', defaults: '{{input_id_here: '{{info_here}}'}}'}">
+</div>
 ```
+
+The **defaults** prop is used to automatically populate default values into the JotForm inputs. The value inside of the double braces are values that are pulled from a users account information. The currently available (8/26/2025) user information usable on JotForms are:
+
+1. shipTo
+2. billTo
+3. firstName
+4. lastName
+5. email
+
+If you're unsure what the input ID for a JotForm input is, you can find it by:
+
+1. Going to the JotForm form in edit mode
+2. Click on the input you want to pre-populate data into
+3. Click the properties / settings wheel
+4. Go to the *advanced* tab
+5. Go to *Field Details* at the bottom
+6. Copy the *Unique Name* name, inside of the curly braces.
 
 ### Tabs
 
