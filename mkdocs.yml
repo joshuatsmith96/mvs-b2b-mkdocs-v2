@@ -46,6 +46,7 @@ nav:
         - Adding localized text: front-end/guides/adding-updating-text.md
         - Adding new carousel banner: front-end/guides/add-banner.md
         - Adding new API spec: front-end/guides/new-spec-guide.md
+        - Adding new Icon SVGs: front-end/guides/new-icon-guide.md
         - Adding CMC-Usable Components: front-end/guides/adding-usable-cmc-components.md
         - MUI Basics: front-end/guides/mui-basics.md
         - Additional Resources: front-end/additional-resources.md
