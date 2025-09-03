@@ -8,8 +8,8 @@ This project uses **MUI icons** directly from the MUI GitHub repository. Follow 
 
 ## Finding and Downloading an Icon
 
-1.  First, go to MUI's **Material Icon visual library** to find the name of the icon you want to add.
-2.  Once you have the name, navigate to the official **MUI GitHub Repository**.
+1.  First, go to MUI's **[Material Icon visual library](https://mui.com/material-ui/material-icons/)** to find the name of the icon you want to add.
+2.  Once you have the name, navigate to the official **[MUI GitHub Repository](https://github.com/mui/material-ui)**.
 3.  Click on the "Go to file" search bar and type in the name of the icon. For example, if you're looking for the `Payments` icon, you'd type "payments".
 4.  From the search results, look for a file with the following structure: `packages/mui-icons-material/material-icons/payments_[version of the icon you want to use].svg`.
 5.  Click on the file you want to use. Right-click the preview image and select **"Save image as"**.
