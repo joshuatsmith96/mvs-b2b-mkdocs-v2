@@ -123,11 +123,11 @@ Use the **JotForm Component** to embed a JotForm without a separate embed script
 
 ```html
 <div element="JotForm"
-props="{'id': 'id_here', defaults: '{{input_id_here: '{{info_here}}'}}'}">
+props="{'id': 'id_here', 'defaults': '{{input_id_here: '{{info_here}}'}}'}">
 </div>
 ```
 
-The **defaults** prop is used to automatically populate default values into the JotForm inputs. The value inside of the double braces are values that are pulled from a users account information. The currently available (8/26/2025) user information usable on JotForms are:
+The **defaults** prop (optional) is used to automatically populate default values into the JotForm inputs. The value inside of the double braces are values that are pulled from a users account information. The currently available (8/26/2025) user information usable on JotForms are:
 
 1. shipTo
 2. billTo

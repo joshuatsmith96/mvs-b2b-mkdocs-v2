@@ -15,7 +15,7 @@ Before you start working, always ensure your local `main` branch is up to date w
 3.  Switch to the `main` branch with `git checkout main`.
 4.  Pull the latest changes from the remote `main` branch:
     ```bash
-    git pull origin main
+    git pull
     ```
 
 -----
